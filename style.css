@@ -1,0 +1,254 @@
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* Universal Styles                                           */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* Menu                                                       */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+#menu{
+    background-color: #4e5f5c;
+    height: 100px;
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+
+}
+
+#menu a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    line-height: 100px;
+    color: #ffffff;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #134f9c;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* Header                                                     */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+#header{
+    padding: 15px 0 20px 0;
+    background-color: #134f9c;
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+#header p{
+    letter-spacing: 00.1em;
+    color: #ffffff;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* Banner                                                     */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    width: 100%;
+    height: 300px;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* Page                                                       */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+#page{
+    min-height: 500px;
+    padding: 20px;
+}
+
+
+#page h2{
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 18px;
+color: #16a085;
+}
+
+/* CONTENT */
+
+#content{
+    width: 60%;
+    float: left;
+    padding-top: 40px;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding-top: 40px;
+}
+
+/* LISTS */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* Footer                                                     */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+#footer{
+    width: 98%;
+    height: 340px;
+    padding-top:25px ;
+    padding-left:22px ;
+    background-color: #1e1b1a;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* CopyRight                                                  */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+#copyright{
+    width: 100%;
+    height: 90px;
+    padding-top: 42px;
+    background-color: #667572;
+    text-align: center;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000 */
+/* Gallery                                                    */
+/* 0000000000000000000000000000000000000000000000000000000000 */
+
+
+
+ /* Display */
+
+ #display img{
+	width:200px;
+	margin:12px;
+    padding-left: 80px;
+	-moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#display img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
